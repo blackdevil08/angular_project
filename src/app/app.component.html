@@ -1,0 +1,24 @@
+
+  <nav class="navbar navbar-light" style="color:#000;">
+    <a class="navbar-brand" href="#">PetitsPains</a>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="home">BreakFast</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="team">Teams</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="member">Members</a>
+        </li>
+      </ul>
+
+      <button class="btn btn-dark" routerLink="login">Login</button>
+  </nav>
+  <!-- <a class="navLink" href="/home">BreakFast</a>
+  <a class="navLink"href="/team">Teams</a>
+  <a class="navLink"href="/member">Members</a> -->
+
+<div class="content" role="main">
+  <router-outlet></router-outlet>
+</div>
